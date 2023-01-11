@@ -1,0 +1,165 @@
+{
+  "chain_depth": 0,
+  "chain_id": 0,
+  "state":"MAIN_MENU",
+  "jump_button_text":"Главное меню",
+  "choices":
+  [
+    {
+      "chain_depth": 1,
+      "chain_id": 1,
+      "state":"GET_SELECTED_COIN_COST",
+      "jump_button_text":"Узнать стоимость криптовалюты",
+      "choices":
+      [
+        {
+          "chain_depth": 2,
+          "chain_id": 11,
+          "state":"COIN_SEARCH",
+          "jump_button_text":"Найти коин",
+          "choices":
+          [
+            {
+              "chain_depth": 3,
+              "chain_id": 110,
+              "state":"COIN_RESEARCH",
+              "jump_button_text":"Топ 30 коинов по капитализации",
+              "choices": null
+            },
+            {
+              "chain_depth": 3,
+              "chain_id": 111,
+              "state":"COIN_FOUND_SUCCESSFULLY",
+              "jump_button_text":"Топ 30 коинов по капитализации",
+              "choices": null
+            }
+          ]
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 12,
+          "state":"TOP_30",
+          "jump_button_text":"Топ 30 коинов по капитализации",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 13,
+          "state":"TOP_10_ROSE_IN_PRICE_IN_24H",
+          "jump_button_text":"Топ 10 выросших в цене за 24 часа",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 14,
+          "state":"TOP_10_FELL_IN_PRICE_IN_24H",
+          "jump_button_text":"Топ 10 упавших в цене за 24 часа",
+          "choices": null
+        }
+      ]
+    },
+    {
+      "chain_depth": 1,
+      "chain_id": 2,
+      "state":"MY_ACCOUNT",
+      "jump_button_text":"Мой аккаунт",
+      "choices":
+      [
+        {
+          "chain_depth": 2,
+          "chain_id": 20,
+          "state":"ACCOUNT_CREATED_RECENTLY",
+          "jump_button_text":"Создать аккаунт (не является кнопкой)",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 21,
+          "state":"ADD_TO_LIST",
+          "jump_button_text":"Добавить в список",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 22,
+          "state":"DELETE_FROM_LIST",
+          "jump_button_text":"Удалить из списка",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 23,
+          "state":"ANABLE_ALERTS",
+          "jump_button_text":"Включить оповещение",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 24,
+          "state":"COIN_STATISTICS",
+          "jump_button_text":"Статистика коина",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 25,
+          "state":"DELETE_ACCOUNT",
+          "jump_button_text":"Удалить аккаунт",
+          "choices": [
+            {
+              "chain_depth": 3,
+              "chain_id": 251,
+              "state":"ACCOUNT_DELETED",
+              "jump_button_text":"Подтверждаю, что хочу удалить аккаунт",
+              "choices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chain_depth": 1,
+      "chain_id": 3,
+      "state":"USER_MANUAL",
+      "jump_button_text":"Руководство по использованию",
+      "choices":
+      [
+        {
+          "chain_depth": 2,
+          "chain_id": 31,
+          "state":"HOW_TO_FIND_OUT_THE_VALUE_OF_A_COIN",
+          "jump_button_text":"Как узнать стоимость",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 32,
+          "state":"WHY_DO_I_NEED_THE_ACCOUNT",
+          "jump_button_text":"Зачем нужен аккаунт",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 33,
+          "state":"ALERT_OF_COIN_RISING_AND_FALLING",
+          "jump_button_text":"Оповещения о росте/падении цен",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 34,
+          "state":"HOW_MUCH_DOES_IT_COST",
+          "jump_button_text":"Сколько это стоит",
+          "choices": null
+        },
+        {
+          "chain_depth": 2,
+          "chain_id": 35,
+          "state":"NEWS_AND_RECOMMENDATIONS",
+          "jump_button_text":"Новости и рекомендации",
+          "choices": null
+        }
+      ]
+    }
+  ]
+}

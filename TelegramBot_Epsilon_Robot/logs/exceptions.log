@@ -1,0 +1,4 @@
+2021-07-07 17:30:38.835 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Public Key Retrieval is not allowed
+2021-07-07 17:30:59.273 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Public Key Retrieval is not allowed
+2021-07-07 17:31:14.034 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Public Key Retrieval is not allowed
+2021-07-22 23:21:14.951 [epsilon_robot Telegram Executor] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Public Key Retrieval is not allowed
